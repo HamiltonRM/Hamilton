@@ -54,13 +54,13 @@ footer {
     color: white;
     text-align: center;
     padding: 10px 0;
-    /* Eliminar el posicionamiento fijo */
+   
     position: relative;
     width: 100%;
     bottom: 0;
 }
 
-/* Responsividad */
+
 @media (max-width: 768px) {
     .galeria-imagenes {
         flex-direction: column;
@@ -75,5 +75,19 @@ footer {
     nav ul li {
         display: block;
         margin: 10px 0;
+    }
+    button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    
+    button:hover {
+        background-color: #0056b3;
     }
 }
